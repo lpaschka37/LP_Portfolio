@@ -29,17 +29,17 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Lukes Paschka</a>
+      <a class="navbar-brand" href="index.html">Luke Paschka</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse ml-auto" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="more.html">More Projects</a>
+                <a class="nav-link" aria-current="page" href="more.html">Additional Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" target="_blank" href="./assets/LPaschka.pdf">Download My Resume</a>
+                <a class="nav-link" target="_blank" href="./assets/LPaschka.pdf">Resume</a>
               </li>                            
             </ul>
         <!-- <form class="d-flex">
@@ -60,7 +60,7 @@
             <p class="lead">Technically-minded professional with demonstrated achievement in technical web support and development. Proven success leading all phases of web projects aligning business goals with technology solutions to drive process improvements and IT transformation. Adept communicator; liaise between business and technical units to achieve on-time and on-spec project completions. Known for ability to produce high-quality deliverables that meet or exceed timeline and budgetary targets. Skilled in UI and UX design as well as Business Analalyst experience.</p>
             <!-- <p>
                 <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                <a href="#" class="btn btn-project my-2">Secondary action</a>
             </p> -->
             </div>
         </div>
@@ -77,25 +77,25 @@
     <div class="row">
       <div style="text-align: center;" class="col-lg-4">
         <img class="rounded-circle mb-3" width="140" height="140" src="./assets/images/GitHub_Image.png"/>
-        <h2>GitHub</h2>
+        <h2 style="color: #000;">GitHub</h2>
         <p>Cick below to view my GitHub Portfolio</p>
-        <p><a class="btn btn-secondary" target="_blank" href="https://github.com/lpaschka37">GitHub Repo &raquo;</a></p>
+        <p><a style="width: 100%;" class="btn btn-contact" target="_blank" href="https://github.com/lpaschka37">GitHub Repo</a></p>
       </div>
 
       <!-- LinkedIn col -->
       <div style="text-align: center;" class="col-lg-4">
         <img class="rounded-circle mb-3" width="140" height="140" src="./assets/images/linkedin.png"/>
-        <h2>LinkedIn</h2>
+        <h2 style="color: #000;">LinkedIn</h2>
         <p>Click below to view my LinkedIn Portfolio</p>
-        <p><a class="btn btn-secondary" target="_blank" href="https://www.linkedin.com/in/luke-paschka-775468b3/">LinkedIn Profile &raquo;</a></p>
+        <p><a style="width: 100%;" class="btn btn-contact" target="_blank" href="https://www.linkedin.com/in/luke-paschka-775468b3/">LinkedIn Profile</a></p>
       </div>
       
       <!-- email col -->
       <div style="text-align: center;" class="col-lg-4">
         <img class="rounded-circle mb-3" width="140" height="140" src="./assets/images/email_icon_purple.png"/>
-        <h2>Email</h2>
+        <h2 style="color: #000;">Email</h2>
         <p>Click below to send me a direct email</p>
-        <p><a class="btn btn-secondary" href="mailto:lpaschka37@gmail.com">Email Me &raquo;</a></p>        
+        <p><a style="width: 100%;" class="btn btn-contact" href="mailto:lpaschka37@gmail.com">Email Me</a></p>        
       </div>
     </div><!-- /.row -->
 
@@ -103,18 +103,20 @@
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
-    <div style="background-color: blueviolet;">
-      <h1 style="padding-top: 25px; padding-bottom: 25px; color: white; text-align: center;">My Projects</h1>
+    <div class="projects-bg">
+      <h1>Projects</h1>
     </div>  
     <hr class="featurette-divider">
 
-    <div class="row featurette bg-dark p-3">
+    <div class="row featurette card-bg p-3">
       <div class="col-md-7">
-        <h2 style="color: white;" class="featurette-heading">Camp Finder</h2>
-        <p  style="color: white;" class="lead">This project involed building a site using HTML, CSS, Javascript and to link out to third party API's</p>
+        <h2 class="featurette-heading">Camp Finder</h2>
+        <p  class="lead">Camp Finder is an app for people who love camping and getting outdoors. Camp Finder uses information from National Parks based on the nearest city location. 
+          This application will provide users with information about the closest state parks located nearest to the chosen city. Includes directions and local weather for the area.
+          This project involed building a site using HTML, CSS, Javascript and use of a third party API's through National Parks</p>
         <p>
-           <a class="btn btn-secondary" target="_blank" href="https://lpaschka37.github.io/Project1/">Try it &raquo;</a>
-           <a class="btn btn-secondary" target="_blank" href="https://lpaschka37.github.io/Project1/">GitHub Repo &raquo;</a> 
+           <a class="btn btn-project" target="_blank" href="https://lpaschka37.github.io/Project1/">Try it &raquo;</a>
+           <a class="btn btn-project" target="_blank" href="https://lpaschka37.github.io/Project1/">GitHub Repo &raquo;</a> 
         </p>
       </div>
       <div class="col-md-5">
@@ -125,13 +127,13 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette bg-dark p-3">
+    <div class="row featurette card-bg p-3">
       <div class="col-md-7 order-md-2">
-        <h2 style="color: white;" class="featurette-heading">Music Lab</h2>
-        <p style="color: white;" class="lead">This application is designed to use Handlebars and Javascript for much of the finctionality</p>
+        <h2 class="featurette-heading">Music Lab</h2>
+        <p class="lead">This application is designed to use Handlebars and Javascript for much of the finctionality</p>
         <p>
-          <a class="btn btn-secondary" target="_blank" href="https://dry-wildwood-18175.herokuapp.com/">Try it &raquo;</a>
-          <a class="btn btn-secondary" target="_blank" href="https://dry-wildwood-18175.herokuapp.com/">GitHub Repo &raquo;</a> 
+          <a class="btn btn-project" target="_blank" href="https://dry-wildwood-18175.herokuapp.com/">Try it &raquo;</a>
+          <a class="btn btn-project" target="_blank" href="https://dry-wildwood-18175.herokuapp.com/">GitHub Repo &raquo;</a> 
         </p>
       </div>
       <div class="col-md-5 order-md-1">
@@ -142,13 +144,13 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette bg-dark p-3">
+    <div class="row featurette card-bg p-3">
       <div class="col-md-7">
-        <h2 style="color: white;" class="featurette-heading">Mock Storefront</h2>
-        <p style="color: white;" class="lead">This application was developed using the MERN (Mongo, Express, React and Node) stack, this was designed to work as storefront site.</p>
+        <h2 class="featurette-heading">Mock Storefront</h2>
+        <p class="lead">This application was developed using the MERN (Mongo, Express, React and Node) stack, this was designed to work as storefront site.</p>
         <p>
-          <a class="btn btn-secondary" target="_blank" href="https://pure-shore-88337.herokuapp.com/#/">Try it &raquo;</a>
-          <a class="btn btn-secondary" target="_blank" href="https://pure-shore-88337.herokuapp.com/#/">GitHub Repo &raquo;</a>
+          <a class="btn btn-project" target="_blank" href="https://pure-shore-88337.herokuapp.com/#/">Try it &raquo;</a>
+          <a class="btn btn-project" target="_blank" href="https://pure-shore-88337.herokuapp.com/#/">GitHub Repo &raquo;</a>
         </p>
       </div>
       <div class="col-md-5">
@@ -164,9 +166,9 @@
   <footer class="text-muted py-5 mt-5 bg-dark">
     <div class="container">
       <p class="float-end mb-1">
-        <a href="#"><i style="font-size: 25px;" class="fas fa-arrow-circle-up"></i></a>
+        <a href="#"><i style="font-size: 25px; color: #66fcf1;" class="fas fa-arrow-circle-up"></i></a>
       </p>
-      <p>&copy; Luke Paschka Portfolio - 2021</p> 
+      <p style="color: #66fcf1;">&copy; Luke Paschka Portfolio - 2021</p> 
     </div>
   </footer>
 </main>

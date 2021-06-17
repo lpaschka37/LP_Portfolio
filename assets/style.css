@@ -1,14 +1,82 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nunito', sans-serif;
-    background-color: white;
+    background-color: #C5C6C7;
+    
 }
 
-/* h1 {
-    color: indigo;
-    background-color: slategray;
-    height: 60px;
-} */
+h1 {
+    color: #66FCF1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+h2, h3 {
+    color: #66FCF1;
+}
+
+.navbar-brand {
+    color: #66FCF1!important;
+}
+
+.nav-link {
+    color: #fff!important;
+}
+
+.nav-link:hover {
+    text-shadow: 0px 0px 10px #ffffff!important;
+    color: #66FCF1!important;
+}
+
+.btn-contact {
+    background-color: #1F2833;
+    color: #fff;
+}
+
+.btn-contact:hover {
+    text-shadow: 0px 0px 10px #ffffff!important;
+    color: #66FCF1!important;
+}
+
+.btn-project {
+    background-color: #45A29E;
+    color: #fff;
+}
+
+.btn-project:hover {
+    background-color: #66FCF1;
+    color: #000;
+}
+
+.projects-bg {
+    background-color: #1f2833;
+    text-align: center;
+}
+
+.card-bg {
+    background-color: #1f2833;
+    color: #fff;
+}
+
+.custom-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 625px;
+    word-wrap: break-word;
+    background-color: #1f2833;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-text-custom {
+    overflow-y: auto;
+    color: #fff;
+    
+}
 
 .hero {
     background-color: blueviolet;
