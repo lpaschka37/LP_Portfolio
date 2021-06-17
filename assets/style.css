@@ -49,6 +49,11 @@ h2, h3 {
     color: #000;
 }
 
+.bottom-btn {
+    position: absolute;
+    bottom: 0;
+}
+
 .projects-bg {
     background-color: #1f2833;
     text-align: center;
